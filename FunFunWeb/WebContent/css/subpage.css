@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+
+
+
+/*--submenu--*/
+#sub_menu{/* border:1px solid red; */
+	width: 250px; 
+	float: left;
+	margin: 20px;
+	font-family:sans-serif;
+	font-size:1em ; 
+}
+
+#sub_menu ul{/* border:1px solid blue; */
+	margin: 20px 0 0 0px; 
+	list-style: none;
+}
+
+#sub_menu li:nth-of-type(1){border-bottom:1px solid black;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	letter-spacing: 6px;
+}
+#sub_menu a{/* border:1px solid blue; */
+	text-decoration: none;
+	text-transform:uppercase;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	padding-top:10px;
+	padding-bottom:0px;
+	color: black;
+	display:block;
+	margin-top:10px;
+	margin-bottom:5px;
+	height: 40px; width: 200px;
+}
+
+#sub_menu a:hover{
+	trasition-property:all;
+	font-weight:bold;
+	letter-spacing:3px;
+	transition-duration:2s;}
+
+
+
+/*--search--*/
+
+#table_search{/* border:1px solid red; */
+	width:500px;
+	height: 50px;
+	position: relative;
+	top:-100px;
+	left: 100px;
+	margin:20px auto;
+}
+
+#table_search input:NTH-OF-TYPE(1){
+	width:300px;
+	height: 35px;
+}
+
+#table_search input:NTH-OF-TYPE(2){
+	width:100px;
+	height: 40px;
+}
+
+/*--paging--*/
+#paging{
+	text-align: center;
+	font-size: 1.2em;
+	color: #000000;
+	position:relative;
+	top:150px;
+	margin: 40px auto;
+}
+
+#paging a{
+	text-decoration: none;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#paging a:LINK, #paging a:VISITED {
+	color:#000000;
+}
+
+#paging a:HOVER {
+	text-decoration: underline;
+}
+
+
+/*--btn--*/
+#w_btn{
+	border:1px solid #d9d9d9;
+	border-radius:10px;
+	background-color: #d9d9d9;
+	width: 100px;
+	height: 50px;
+	text-align: center;	
+	line-height: 50px;
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	position: absolute;
+	top:800px;
+	right:150px;
+}
+#w_btn a{
+	text-decoration: none;
+	color:#000000;
+}
+
+#w_btn a:LINK, #w_btn a:VISITED {
+	color:#000000;
+}
+
+#w_btn:HOVER {
+	background-color: #0080c0;
+}
+
+#g_btn{
+	border:1px solid #d9d9d9;
+	border-radius:10px;
+	background-color: #d9d9d9;
+	width: 100px;
+	height: 50px;
+	text-align: center;	
+	line-height: 50px;
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	position: absolute;
+	top:1700px;
+	right:200px;
+}
+#g_btn a{
+	text-decoration: none;
+	color:#000000;
+}
+
+#g_btn a:LINK, #g_btn a:VISITED {
+	color:#000000;
+}
+
+#g_btn:HOVER {
+	background-color: #0080c0;
+}
+
+
+#info_btn{
+	position: relative;
+	left:700px; top:50px;
+}
+
+#info_btn input:Hover{
+	background-color: #0080c0;
+}
