@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+.clear {
+	clear: both;
+}
+
+body{
+	/* background-color: #000; */
+}
+
+.pic_frame{
+	/* border:1px solid red;   */
+	background-image:url("../images/vip4_1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	position: relative;
+	margin:0px auto;
+	height:700px;
+	margin: 0px auto;
+}
+
+.vip_name{
+	position: absolute;
+	color:white;
+	font-weight: bold;
+	font-size: 2em;
+	top:525px; left:850px;
+}
+
+.vip_li{
+	text-align: center;
+}
+
+
+.radio {
+	display: none;
+}
+
+input:checked + span{ 
+	background-color:#ff8000;
+	color: #000000;
+	font-weight: bold;
+} 

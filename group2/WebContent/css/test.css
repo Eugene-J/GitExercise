@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+
+/*전체 설정*/
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+
+
+
+/*슬라이더 컨테이너 설정*/
+.container{
+	border:1px solid orange; 
+	/* width:300px;  */
+	height:220px;
+	margin: 80px auto;
+	overflow: hidden; 	
+	position: absolute;
+	top:10px; left: 10px;
+}
+
+
+
+/*슬라이더*/
+.slider{
+	height:220px;
+	border:1px solid blue;
+	position: relative;
+	box-sizing:border-box;
+	padding:0;
+}
+
+/*영화 Box*/
+.mv {
+	float: left;
+	overflow:hidden;
+	box-sizing:border-box;
+	position: relative;
+}
+.mv>img {
+	position:relative;
+	top:-50px;
+	left: -110px;	
+}
+
+
+/*이전 다음 버튼 디자인*/
+.button{
+	border: 1px solid red;  
+	background-color: transparent;
+	margin:0;
+	padding:0;
+	width: 60px;
+	height: 60px;
+	display: inline;
+	box-shadow:none;
+	box-sizing:border-box;	
+} 
+.button>img{
+	opacity:0.5;
+}
+
+
+
+
+/**이전 다음 버튼 제어**/
+.prev1{
+	position:absolute;
+	top:200px; left:100px;
+}
+.next1{
+	position:absolute;
+	top:200px; left: 150px;
+}
+
+
+.button img:HOVER {
+	opacity:1;
+	width: 70px;
+	height: 70px;
+}
+/**이전 다음 버튼 제어 끝**/
+
+
+
+
+
